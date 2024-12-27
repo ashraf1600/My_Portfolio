@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!-- Custom Styles -->
+   <style>
+    body {
+        background-color: #121212;
+        color: #0bcfd6;
+      }
+      
+      .navbar-brand img {
+        width: 50px;
+        height: auto;
+      }
+      
+      .btn-custom {
+        background-color: #982f5dc1;
+        color: #fff;
+      }
+      
+      .btn-custom:hover {
+        background-color: #0056b3;
+        color: #fff;
+      }
+   </style>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img 
+          src="C:\Take_U_Forward\PortFolio\ef68d7e04d83eb20f06f7481613d2846.jpeg" 
+          alt="Logo" 
+          style="height: 40px; width: 40px; border-radius: 50%; margin-right: 10px;">
+        <span class="fw-bold text-warning"></span>
+      </a>
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="resume.pdf" class="btn btn-outline-warning ms-3" download>
+              <i class="fas fa-download"></i> Resume
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- Hero Section -->
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <!-- Left Side -->
+      <div class="col-md-6 text-center text-md-start">
+        <h1 class="display-4 fw-bold text-danger">
+            HI! <br> I'M <span style="color: #b1660a;">ASHRAF</span>
+          </h1>
+          
+        <p class="lead  text-light">Web Developer || Django Learner || Problem Solver || CSE Undergrad || Aspiring Software Engineer </p>
+        <p>  
+          "I am an enthusiastic Python-Django developer with a strong foundation in both backend and frontend frameworks.
+        My expertise lies primarily in Python development, but I also have a solid understanding of basic HTML, CSS, and MySQL. 
+        I hold a B.Sc. in CSE in CUET ,which has equipped me with technical knowledge and problem-solving skills.  
+         My future goal is to become a full-stack developer, leveraging my Python expertise while continuously improving my skills in frontend technologies.
+         I aspire to work on impactful projects that merge backend efficiency with intuitive user interfaces,
+          ultimately contributing to innovative and scalable software solutions."
+       </p>
+        <div class="d-flex gap-3 justify-content-center justify-content-md-start ">
+          <a href="#" class="btn btn-success"><i class="fab fa-github"></i> GitHub</a>
+          <a href="#" class="btn btn-primary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="#" class="btn btn-warning"><i class="fas fa-file-alt"></i> Resume</a>
+        </div>
+      </div>
+      <!-- Right Side -->
+      <div class="col-md-6 text-center position-relative">
+        <div class="profile-image-container d-inline-block rounded overflow-hidden shadow-lg">
+          <img 
+            src="C:\Take_U_Forward\PortFolio\PP.jpg" 
+            alt="Profile" 
+            class="img-fluid" 
+            style="max-width: 80%; height: auto; transition: transform 0.3s ease;">
+        </div>
+        <div class="badge-container position-absolute bottom-0 start-50 translate-middle-x">
+          <span class="badge bg-warning text-dark px-3 py-2 rounded shadow-sm">
+            <i class="fas fa-user"></i> Ashraful Islam
+          </span>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio-section py-5" style="background-color: #121212;">
+    <div class="container">
+        <!-- Section Title -->
+        <h2 class="text-center mb-5 fw-bold text-light">Portfolio</h2>
+        <div class="row g-4">
+            <!-- Portfolio for Medical Center -->
+            <div class="col-md-6 col-lg-4 col-sm-12">
+                <div class="card shadow-lg border-0 h-100 bg-dark hover-highlight">
+                    <div class="position-relative">
+                        <img src="C:\Take_U_Forward\PortFolio\WhatsApp Image 2024-12-27 at 10.21.48_1bad49e3.jpg" 
+                             class="img-fluid rounded-top" alt="Medical Center">
+                        <div class="card-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center text-white" 
+                             style="background: rgba(0, 0, 0, 0.6); opacity: 0; transition: opacity 0.3s;">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-info">CUET Medical Center</h5>
+                        <p class="card-text text-light">The CUET Medical Center Management System is a web-based platform designed.
+                            It enables students to register, manage appointments, and access their medical history with ease.
+                             The system provides an efficient e-booklet management feature for tracking healthcare records.
+                              Administrators can oversee operations, maintain user data securely, and manage hospital registrations. 
+                              </p>
+                        <p class="text-info"><strong>Technologies:</strong> React, HTML, CSS, Node.js</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-1 d-flex justify-content-between align-items-center">
+                        <a href="#" class="btn btn-outline-info btn-sm">Live Demo</a>
+                        <a href="#" class="btn btn-outline-info btn-sm">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio for Blood Donation Management -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow-lg border-0 h-100 bg-dark hover-highlight">
+                    <div class="position-relative">
+                        <img src="C:\Take_U_Forward\PortFolio\WhatsApp Image 2024-12-27 at 10.22.57_3ec0fcd1.jpg" 
+                             class="img-fluid rounded-top" alt="Blood Bank Management">
+                        <div class="card-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center text-white" 
+                             style="background: rgba(0, 0, 0, 0.6); opacity: 0; transition: opacity 0.3s;">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-info">Blood Bank Management</h5>
+                        <p class="card-text text-light">The Blood Bank Management System connects donors and recipients,
+                             enabling advanced search, real-time matching, inventory tracking, appointment scheduling,
+                             and secure data handling to ensure efficient and reliable blood donation services.</p>
+                        <p class="text-info"><strong>Technologies:</strong> React, Firebase, HTML, CSS, Node.js</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-1 d-flex justify-content-between align-items-center">
+                        <a href="#" class="btn btn-outline-info btn-sm">Live Demo</a>
+                        <a href="#" class="btn btn-outline-info btn-sm">View Code</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio For CSF Database -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card shadow-lg border-0 h-100 bg-dark hover-highlight">
+                    <div class="position-relative">
+                        <img src="C:\Take_U_Forward\PortFolio\CSF.jpg"
+                             class="img-fluid rounded-top" alt="CSF">
+                        <div class="card-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center text-white" 
+                             style="background: rgba(0, 0, 0, 0.6); opacity: 0; transition: opacity 0.3s;">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold text-info">Portfolio Website</h5>
+                        <p class="card-text text-light">CUET Student Forum is a platform to unite students,
+                             promote academic excellence, foster collaboration, organize events,
+                             and build a strong community, empowering CUETians to achieve their personal and professional goals.</p>
+                        <p class="text-info"><strong>Technologies:</strong> HTML, CSS, Bootstrap, JavaScript</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-1 d-flex justify-content-between align-items-center">
+                        <a href="#" class="btn btn-outline-info btn-sm">Live Demo</a>
+                        <a href="#" class="btn btn-outline-info btn-sm">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container my-5">
+    <!-- Expertise Section -->
+    <section id="expertise" class="mb-5">
+      <h2 class="section-title text-left mb-4">Expertise</h2>
+      <div class="d-flex justify-content-left flex-wrap gap-2">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+        <div class="d-flex justify-content-left flex-wrap gap-2">
+          <span class="badge bg-dark" style="color: #61DAFB;"><i class="fab fa-react"></i> React.js</span>
+          <span class="badge bg-dark" style="color: #F7DF1E;"><i class="fab fa-js-square"></i> JavaScript</span>
+          <span class="badge bg-dark text-secondary"><i class="fas fa-database"></i> MySQL</span>
+          <span class="badge bg-dark" style="color: #E44D26;"><i class="fas fa-code"></i> HTML</span>
+          <span class="badge bg-dark" style="color: #7952B3;"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+          <span class="badge bg-dark" style="color: #264DE4;"><i class="fab fa-css3-alt"></i> CSS</span>
+        </div>
+        
+      </div>
+      
+    </section>
+
+    <!-- Comfortable Section -->
+    <section id="comfortable" class="mb-5">
+      <h2 class="section-title text-left mb-4">Comfortable</h2>
+      <div class="d-flex justify-content-left flex-wrap gap-2">
+        <span class="badge" style="background-color: #61DAFB; color: #000;"><i class="fab fa-react"></i> React.js</span>
+  <span class="badge" style="background-color: #F7DF1E; color: #000;"><i class="fab fa-js-square"></i> JavaScript</span>
+  <span class="badge" style="background-color: #00758F; color: #fff;"><i class="fas fa-database"></i> MySQL</span>
+  <span class="badge" style="background-color: #E44D26; color: #fff;"><i class="fas fa-code"></i> HTML</span>
+  <span class="badge" style="background-color: #7952B3; color: #fff;"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+  <span class="badge" style="background-color: #264DE4; color: #fff;"><i class="fab fa-css3-alt"></i> CSS</span>
+      
+      </div>
+    </section>
+
+
+
+    <!-- Familiar Section -->
+    <section id="familiar" class="mb-5">
+      <h2 class="section-title text-left mb-4">Familiar</h2>
+      <div class="d-flex justify-content-left flex-wrap gap-2">
+        <span class="badge bg-dark text-primary"><i class="fas fa-c"></i> C</span>
+        <span class="badge bg-dark text-info"><i class="fas fa-c"></i> C++</span>
+        <span class="badge bg-dark" style="color: #3776AB;"><i class="fab fa-python"></i> Python</span>
+        <span class="badge bg-dark" style="color: #E57000;"><i class="fas fa-coffee"></i> Java Swing</span>
+        <span class="badge bg-dark text-secondary"><i class="fas fa-database"></i> DBMS</span>
+
+
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="mb-5">
+      <h2 class="section-title text-left mb-4">Tools</h2>
+      <div class="d-flex justify-content-left flex-wrap gap-2">
+        <span class="badge bg-dark text-info"><i class="fas fa-code"></i> VS Code</span>
+        <span class="badge bg-dark text-success"><i class="fas fa-project-diagram"></i> PyCharm</span>
+        <span class="badge bg-dark text-primary"><i class="fas fa-terminal"></i> Codeblocks</span>
+        <span class="badge bg-dark text-warning"><i class="fab fa-git-alt"></i> Git</span>
+      </div>
+    </section>
+        <!-- Education Section -->
+        <section id="education" class="mb-5">
+            <h2 class="section-title text-right mb-4 text-light">My Education :</h2>
+            <div class="text-right text-warning">
+              <p>B.Sc in Computer Science And Engineering(CSE) </p>
+              <p>Chittagong University Of Engineering And Technology(CUET)</p>
+              <p><em>2023-present</em></p>
+            </div>
+          </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mb-5">
+      <h2 class="section-title text-center mb-4">Contact with Me</h2>
+      <form class="contact-form mx-auto" style="max-width: 500px;">
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Your Name"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Your Email"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-submit">Send</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  ></script>
+
+  
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center py-3 mt-5">
+    <p class="mb-0">© 2024 Ashraful Islam. All Rights Reserved.</p>
+    <div class="d-flex justify-content-center flex-wrap gap-2">
+        <span class="badge bg-dark text-secondary"><i class="fab fa-github"></i></span>
+        <span class="badge bg-dark text-info"><i class="fab fa-linkedin"></i></span>
+        <span class="badge bg-dark text-danger"><i class="fab fa-youtube"></i></span>
+      </div>
+
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

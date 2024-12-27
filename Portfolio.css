@@ -1,0 +1,27 @@
+ .hover-highlight {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-highlight:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(23, 162, 184, 0.6);
+  }
+  
+  .card {
+    background-color: #1e1e1e; /* Dark card background */
+    border: none;
+  }
+  
+  .card-title {
+    color: #0bcfd6;
+  }
+  
+  .card-text {
+    color: #dcdcdc; /* Muted white for text */
+  }
+  
+  .footer {
+    background-color: #000; /* Black footer */
+    color: #fff;
+  }
+  
